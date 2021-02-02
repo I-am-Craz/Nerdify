@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="292d993d-1f14-4382-9270-891a4c3debcc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mbRmb8xYhNEn4eS4JRdEMvbDpv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="292d993d-1f14-4382-9270-891a4c3debcc" name="Default Changelist" comment="" />
+      <created>1609760463702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609760463702</updated>
+      <workItem from="1609760464759" duration="259000" />
+      <workItem from="1609760747637" duration="7635000" />
+      <workItem from="1609770555722" duration="5420000" />
+      <workItem from="1609871961811" duration="30000" />
+      <workItem from="1609955533674" duration="7696000" />
+      <workItem from="1610031954276" duration="5085000" />
+      <workItem from="1610087807306" duration="7439000" />
+      <workItem from="1610100169203" duration="21288000" />
+      <workItem from="1610178759313" duration="19584000" />
+      <workItem from="1610205614330" duration="162000" />
+      <workItem from="1610205835639" duration="638000" />
+      <workItem from="1610206521227" duration="2000" />
+      <workItem from="1610208277864" duration="3003000" />
+      <workItem from="1610392017521" duration="22000" />
+      <workItem from="1610477472750" duration="133000" />
+      <workItem from="1610477777310" duration="1542000" />
+      <workItem from="1610533022101" duration="14329000" />
+      <workItem from="1611520142045" duration="355000" />
+      <workItem from="1612259922341" duration="304000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610477604062">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1610477604062" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1611520498083">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1611520498083" />
+    <state x="204" y="0" width="805" height="619" key="dock-window-1" timestamp="1610205776804">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="204" y="0" width="805" height="619" key="dock-window-1/0.0.1366.738@0.0.1366.738" timestamp="1610205776804" />
+    <state x="514" y="165" key="run.anything.popup" timestamp="1609778584303">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="514" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1609778584303" />
+  </component>
+</project>
