@@ -6,29 +6,26 @@
     font-family: "Roboto", sans-serif;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+:root{
+    --primary-color : #023135;
+    --btn-bg-color : #007A5C;
+}
 body{
-    height: 4289px;
     margin: 0 auto;
 }
 .container{
     width: 80%;
-    height: 100%;
 }
-.block{
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-}
+
 .text{
     font-size: 1em;
     font-weight: 400;
     line-height: 24px;
-    color: #023135;
+    color: var(--primary-color);
 }
 .title{
     font-size: 2em;
-    color: #023135;
+    color: var(--primary-color);
     text-align: center;
     margin-top: 5%;
 }
@@ -46,7 +43,7 @@ body{
 .btn{
     border: none;
     outline: none;
-    background-color: #007A5C;
+    background-color: var(--btn-bg-color);
     font-size: 1em;
     color:  #FFFFFF;
     cursor: pointer;
@@ -73,13 +70,11 @@ a:hover {
 a:active{
     color: #959895;
 }
-/*header styles*/
+
 .header{
-    height: 14%;
     background: url("https://s3-alpha-sig.figma.com/img/743d/663d/85a5908475fd48c4ca7d22adb8cf62e7?Expires=1612742400&Signature=P3GmalwRT0SM9oChb1FyHCI3GVlgASYLZpXldpo9Go3aTj76uJqT1zLJz0wc91NS7BRDr2xSdQynvwLIncCrn220ciJs5Cfz~h5P2AEBR41AcTt-QX-pMFsZ8fV0f58~egtpxNGmp-zyBg6BK3KTHVLQ7MXsr6pM7u2Y~O~yqdSluP255TWN4iqM9dUFDjidttruM15ipcvRva6GG9EN37ilKSxS4axwXAU2rn663JEXO7pCQzE1MLAMwd5F0nGeBC-MrXaRPBjbPScDQE7RgOfGUEq2Z-yLGujH4a3G2D7i5iNWDSE8RU0nZDVL1jPY4gzZxRbIXkmWBtpumVqS9A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA") center center no-repeat;
 }
 .header-row, .footer-row{
-    height: 15%;
     padding: 2%;
     justify-content: space-between;
     align-items: baseline;
@@ -93,7 +88,7 @@ a:active{
     color:  #32404D;
 }
 .header__btn{
-    height: 10%;
+    padding: 4%;
     width: 33%;
     border-radius: 30px;
     margin-top: 5%;
@@ -103,13 +98,8 @@ a:active{
     font-size: 0.8em;
 }
 
-main{
-    overflow: hidden;
-    height: 84%;
-}
 
 .courses{
-    height: 7%;
     padding: 2%;
 }
 .courses__title{
@@ -141,13 +131,13 @@ main{
 .message{
     width: 17%;
     position: absolute;
-    top: 25%;
+    top: 150%;
     left: 45%;
 }
 .small-message {
     width: 5%;
     position: absolute;
-    top: 45%;
+    top: 167%;
     left: 55%;
 }
 .block-number{
@@ -162,8 +152,7 @@ main{
     margin-top: 5%;
 }
 .instruction__block{
-    padding: 2%;
-    height: 25%;
+    padding: 4%;
     border-radius: 24px;
     border:  1px solid #EBF4FF;
     box-shadow: 0 4px 7px 0 #DEEAF9;
@@ -174,7 +163,7 @@ main{
     height: 26px;
     width: 26px;
     border-radius: 100%;
-    padding: 1%;
+    padding: 3%;
 }
 .first-block{
     margin: -3% 0 10% 0;
@@ -190,7 +179,7 @@ main{
 }
 .features{
     background-color: #E5E5E5;
-    height: 20%;
+    padding: 4%;
 }
 .features-content__item{
     display: flex;
@@ -217,12 +206,11 @@ main{
     height: 22%;
     padding: 5%;
 }
-.benefits__title{
-    margin: 0 0 7%;
-}
+
 .benefits-list {
     font-size: 1em;
     color: #023135;
+    margin-top: 5%;
     margin-left: 10%;
     align-items: center;
 }
@@ -238,9 +226,9 @@ main{
 }
 .example {
     background-color: #E5E5E5;
-    height: 15%;
+    padding: 4%;
 }
-.light-title{
+#light-title{
     color: #007A5C;
 }
 .video-block{
@@ -258,17 +246,15 @@ main{
 }
 .pay{
     background: linear-gradient(180deg, #F7FAFF 0%, #EBF4FF 100%);
-    height: 15%;
     padding: 5%;
 }
 .pay__button{
-    height: 10%;
+    padding: 4%;
     width: 80%;
     border-radius: 24px;
     margin: 9% 7% 8% 7%;
 }
 .card{
-    height: 40%;
     width: 45%;
     border-radius: 20px;
     border: 1px solid #EBF4FF;
@@ -291,7 +277,7 @@ main{
 }
 .learnMore{
     background-color: #E5E5E5;
-    height: 17%;
+    padding-bottom: 7%;
 }
 .questions__title{
     margin-top: 10%;
@@ -306,7 +292,7 @@ main{
     margin-left: 40%;
 }
 .footer{
-    height: 2%;
+    padding: 2%;
     background: linear-gradient(180deg, #F9FAFD 0%, #F1F3F9 100%);
 }
 .footer-logo-title{
@@ -316,6 +302,7 @@ main{
     font-size: 0.6em;
     margin-right: 4%;
 }
+
 
 @media screen and (max-width: 600px) {
     .content{
@@ -335,9 +322,6 @@ main{
         text-align: center;
         line-height: 40px;
     }
-    .header-row{
-        height: 10%;
-    }
     .logo{
         height: 20px;
     }
@@ -354,18 +338,12 @@ main{
         margin-right: 1%;
         font-size: 0.7em;
     }
-    .header{
-        height: 10%;
-    }
-    .header-img {
-        display: none;
-    }
+
     .header__text{
         text-align: center;
     }
     .header__btn {
         align-self: center;
-        height: 12%;
         width: 45%;
     }
     .col-sm-12{
@@ -379,25 +357,18 @@ main{
     .courses__title{
         font-size: 0.5em;
     }
-    .phone, .message, .small-message, .arrow, .num, .block-number{
+    .phone,.header-img, .message, .small-message, .arrow, .num, .block-number{
         display: none;
-    }
-    .instruction{
-        height: 70%;
     }
     .instruction-content{
         padding: 2% 0 0 15%;
     }
     .instruction__block{
         margin: 2%;
-        height: 100%;
         width: 80%;
     }
     .benefits-list{
         margin-left: 0;
-    }
-    .example{
-        height: 27%;
     }
     .video-block{
         margin-left: 0;
@@ -419,9 +390,6 @@ main{
         margin-left: 20%;
         text-align: left;
     }
-    .pay{
-        height: 20%;
-    }
     .pay__title{
         margin-top: 15%;
     }
@@ -434,9 +402,6 @@ main{
         flex-direction: column;
         margin-left: 4%;
     }
-    .learnMore{
-        height: 20%;
-    }
 }
 
 @media screen and (min-width: 375px) and (max-width: 450px){
@@ -445,14 +410,9 @@ main{
     }
 }
 @media screen and (min-width: 540px) and (max-width: 800px){
-    .benefits{
-        height: 18%;
-    }
-    .example{
-        height: 27%;
-    }
     .video{
         width: 40%;
+        margin: 0;
     }
     .video-block{
         display: flex;
@@ -463,33 +423,21 @@ main{
         margin-top: 2%;
         text-align: center;
     }
-    .video{
-        margin: 0;
-    }
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
     .header__btn {
-        height: 10%;
         width: 60%;
     }
-
     .message {
-        top: 32%;
+        top: 150%;
         left: 43%;
     }
-
     .small-message {
-        top: 48%;
+        top: 167%;
     }
-
-    .instruction__block {
-        height: 30%;
-    }
-
     .third-block {
         margin-top: 20%;
     }
-
     .play-button {
         margin: 7% 10%;
     }

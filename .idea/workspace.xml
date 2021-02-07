@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="292d993d-1f14-4382-9270-891a4c3debcc" name="Default Changelist" comment="" />
+    <list default="true" id="292d993d-1f14-4382-9270-891a4c3debcc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nerdify.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <list id="9963c08f-7a26-436d-91c5-32d3f804f0fe" name="Local changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +36,31 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="8a657c5517c4fb5a696b3c8d0f993ff18d10b31d" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="17" changelist="292d993d-1f14-4382-9270-891a4c3debcc" />
+        <range start1="3" end1="4" start2="18" end2="26" changelist="292d993d-1f14-4382-9270-891a4c3debcc" />
+        <range start1="16" end1="16" start2="38" end2="63" changelist="292d993d-1f14-4382-9270-891a4c3debcc" />
+        <range start1="57" end1="57" start2="104" end2="113" changelist="292d993d-1f14-4382-9270-891a4c3debcc" />
+        <range start1="58" end1="58" start2="114" end2="115" changelist="292d993d-1f14-4382-9270-891a4c3debcc" />
+        <range start1="62" end1="62" start2="119" end2="129" changelist="292d993d-1f14-4382-9270-891a4c3debcc" />
+        <range start1="63" end1="63" start2="130" end2="160" changelist="292d993d-1f14-4382-9270-891a4c3debcc" />
+        <range start1="68" end1="68" start2="165" end2="169" changelist="292d993d-1f14-4382-9270-891a4c3debcc" />
+        <range start1="72" end1="72" start2="173" end2="189" changelist="292d993d-1f14-4382-9270-891a4c3debcc" />
+        <range start1="76" end1="77" start2="193" end2="198" changelist="9963c08f-7a26-436d-91c5-32d3f804f0fe" />
+        <range start1="79" end1="80" start2="200" end2="201" changelist="9963c08f-7a26-436d-91c5-32d3f804f0fe" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="1mbRmb8xYhNEn4eS4JRdEMvbDpv" />
   <component name="ProjectViewState">
@@ -55,21 +102,91 @@
       <workItem from="1610533022101" duration="14329000" />
       <workItem from="1611520142045" duration="355000" />
       <workItem from="1612259922341" duration="304000" />
+      <workItem from="1612623265084" duration="683000" />
+      <workItem from="1612718577897" duration="6738000" />
     </task>
+    <task id="LOCAL-00001" summary="ref: Подготовить проект для Pages&#10;&#10;- переименовать главную страницу в index.html">
+      <created>1612619658278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612619658278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="ref: Подготовить проект для Pages&#10;&#10;- переименовать главную страницу в index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="ref: Подготовить проект для Pages&#10;&#10;- переименовать главную страницу в index.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610477604062">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1610477604062" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1612619657555">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1612619657555" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1611520498083">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1611520498083" />
+    <state x="220" y="267" width="433" height="204" key="Github.ShareDialog" timestamp="1612618769228">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="220" y="267" width="433" height="204" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1612618769228" />
+    <state x="513" y="238" key="VCS.EditChangelistDialog" timestamp="1612619290556">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="513" y="238" key="VCS.EditChangelistDialog/0.0.1366.738@0.0.1366.738" timestamp="1612619290556" />
+    <state x="275" y="89" key="Vcs.Push.Dialog.v2" timestamp="1612619672677">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="89" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1612619672677" />
+    <state x="92" y="92" width="499" height="554" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612618826516">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="499" height="554" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1612618826516" />
     <state x="204" y="0" width="805" height="619" key="dock-window-1" timestamp="1610205776804">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
