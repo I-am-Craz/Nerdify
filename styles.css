@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -12,6 +13,9 @@
 }
 body{
     margin: 0 auto;
+}
+.row{
+    margin-right: 0;
 }
 .container{
     width: 80%;
@@ -70,16 +74,19 @@ a:hover {
 a:active{
     color: #959895;
 }
+#learnMore, #example, #features, #benefits, #pay {
+    padding: 3% 2% 4% 5%;
+}
 
 .header{
-    background: url("https://s3-alpha-sig.figma.com/img/743d/663d/85a5908475fd48c4ca7d22adb8cf62e7?Expires=1612742400&Signature=P3GmalwRT0SM9oChb1FyHCI3GVlgASYLZpXldpo9Go3aTj76uJqT1zLJz0wc91NS7BRDr2xSdQynvwLIncCrn220ciJs5Cfz~h5P2AEBR41AcTt-QX-pMFsZ8fV0f58~egtpxNGmp-zyBg6BK3KTHVLQ7MXsr6pM7u2Y~O~yqdSluP255TWN4iqM9dUFDjidttruM15ipcvRva6GG9EN37ilKSxS4axwXAU2rn663JEXO7pCQzE1MLAMwd5F0nGeBC-MrXaRPBjbPScDQE7RgOfGUEq2Z-yLGujH4a3G2D7i5iNWDSE8RU0nZDVL1jPY4gzZxRbIXkmWBtpumVqS9A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA") center center no-repeat;
+    background: url("https://s3-alpha-sig.figma.com/img/743d/663d/85a5908475fd48c4ca7d22adb8cf62e7?Expires=1613952000&Signature=dEMXKuwVU-dBsLOlMQ66uzV6p9Nkt6IGW-zJgI~rhobpAwGLfRGXfjOLPiQqjZocbFXCSRXZxvBvfUmaE-BVD-njvHgu~nxsd-VFw~NguDFKvdUJ1WtSnUNbr0Pyw2weWRWIIN4-RcN9-gvGYq5d4-lccFlM5A6ElR17IeshXmOqLJ5PXOTOC4ZGIZGSFefwQjzB0Gbj6d6zqir7d-MwLHJtRbsnWjjtPtV3GOJ~iW6lybJTydFj9MSnlpYo22Ht7GERbdQ7mLbNTpA35bj2PLVpEgGde-WX0SHik3CMcXU7U7oAOn5HuYAg~ah2P5Y1srjwGUhM3MCbhmmrxlQOnQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA") center center no-repeat;
 }
-.header-row, .footer-row{
+#header-row, #footer-row{
     padding: 2%;
     justify-content: space-between;
     align-items: baseline;
 }
-.header-title{
+#header__title{
     text-align: left;
     font-size: 2.5em;
     line-height: 64px;
@@ -87,7 +94,7 @@ a:active{
     margin-bottom: 2%;
     color:  #32404D;
 }
-.header__btn{
+#header__btn{
     padding: 4%;
     width: 33%;
     border-radius: 30px;
@@ -99,10 +106,10 @@ a:active{
 }
 
 
-.courses{
+#courses{
     padding: 2%;
 }
-.courses__title{
+#courses__title{
     color: #637381;
     font-size: 0.7em;
     margin-bottom: 2%;
@@ -123,21 +130,21 @@ a:active{
 }
 
 
-.phone{
+#phone{
     margin-left: 20%;
     width: 75%;
     z-index: -1;
 }
-.message{
+#message{
     width: 17%;
     position: absolute;
     top: 150%;
-    left: 45%;
+    left: 43%;
 }
-.small-message {
+#small-message {
     width: 5%;
     position: absolute;
-    top: 167%;
+    top: 180%;
     left: 55%;
 }
 .block-number{
@@ -163,23 +170,23 @@ a:active{
     height: 26px;
     width: 26px;
     border-radius: 100%;
-    padding: 3%;
+    padding: 2% 3%;
 }
-.first-block{
-    margin: -3% 0 10% 0;
+
+#first-block{
+    margin: -5% 0 10% 0;
 }
-.third-block{
+#third-block{
     margin: 50% 0 0 20%;
 }
-.arrow-3{
+#arrow-3{
     margin: 0 0 0 70%;
 }
-.arrow-1{
+#arrow-1{
     margin-left: 60%;
 }
-.features{
+#features{
     background-color: #E5E5E5;
-    padding: 4%;
 }
 .features-content__item{
     display: flex;
@@ -201,13 +208,11 @@ a:active{
 .content__item{
     text-align: center;
 }
-.benefits{
+#benefits{
     background: linear-gradient(180deg, #f9fafd 0%, #f1f3f9 100%);
-    height: 22%;
-    padding: 5%;
 }
 
-.benefits-list {
+#benefits-list {
     font-size: 1em;
     color: #023135;
     margin-top: 5%;
@@ -224,29 +229,27 @@ a:active{
     display: flex;
     align-items: baseline;
 }
-.example {
+#example {
     background-color: #E5E5E5;
-    padding: 4%;
 }
 #light-title{
     color: #007A5C;
 }
 .video-block{
-    margin-left: 8%;
+    margin-left: 6%;
+    padding: revert;
+    text-align: center;
 }
-.video-name{
-    margin-right: 20%;
-}
+
 .play-button{
     z-index: 2;
     position: absolute;
-    margin: 5% 8%;
+    margin: 5% 7.5%;
     height: 48px;
     width: 48px;
 }
-.pay{
+#pay{
     background: linear-gradient(180deg, #F7FAFF 0%, #EBF4FF 100%);
-    padding: 5%;
 }
 .pay__button{
     padding: 4%;
@@ -275,11 +278,11 @@ a:active{
     margin: 0 15% 5%;
     text-align: left;
 }
-.learnMore{
+#learnMore{
     background-color: #E5E5E5;
-    padding-bottom: 7%;
+    padding-bottom: 8%;
 }
-.questions__title{
+#questions__title{
     margin-top: 10%;
 }
 .plus{
@@ -332,17 +335,17 @@ a:active{
         justify-content: space-around;
     }
     .logo__title{
-        margin-left: 10%;
+        margin-left: 2%;
     }
     .menu__item{
         margin-right: 1%;
         font-size: 0.7em;
     }
 
-    .header__text{
+    #header__text{
         text-align: center;
     }
-    .header__btn {
+    #header__btn {
         align-self: center;
         width: 45%;
     }
@@ -354,10 +357,10 @@ a:active{
         justify-content: center;
         text-align: center;
     }
-    .courses__title{
+    #courses__title{
         font-size: 0.5em;
     }
-    .phone,.header-img, .message, .small-message, .arrow, .num, .block-number{
+    #phone,#header-img, #message, #small-message, .arrow, .num, .block-number{
         display: none;
     }
     .instruction-content{
@@ -367,7 +370,7 @@ a:active{
         margin: 2%;
         width: 80%;
     }
-    .benefits-list{
+    #benefits-list{
         margin-left: 0;
     }
     .video-block{
@@ -390,7 +393,7 @@ a:active{
         margin-left: 20%;
         text-align: left;
     }
-    .pay__title{
+    #pay__title{
         margin-top: 15%;
     }
     .card{
@@ -425,20 +428,23 @@ a:active{
     }
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-    .header__btn {
+    #header__btn {
         width: 60%;
     }
-    .message {
+    #message {
         top: 150%;
         left: 43%;
     }
-    .small-message {
+    #small-message {
         top: 167%;
     }
-    .third-block {
+    #third-block {
         margin-top: 20%;
     }
     .play-button {
         margin: 7% 10%;
     }
 }
+
+/*feat, ex, learn, pay
+*/
