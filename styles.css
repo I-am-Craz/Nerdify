@@ -138,8 +138,8 @@ a:active{
 #message{
     width: 17%;
     position: absolute;
-    top: 150%;
     left: 43%;
+    top: 150%;
 }
 #small-message {
     width: 5%;
@@ -319,7 +319,7 @@ a:active{
     .title{
         font-size: 1em;
     }
-    .header-title{
+    #header-title{
         margin-top: 5%;
         font-size: 2em;
         text-align: center;
@@ -364,11 +364,14 @@ a:active{
         display: none;
     }
     .instruction-content{
-        padding: 2% 0 0 15%;
+        padding: 10% 0 0 15%;
     }
     .instruction__block{
         margin: 2%;
         width: 80%;
+    }
+    #third-block{
+        margin: 0;
     }
     #benefits-list{
         margin-left: 0;
@@ -381,12 +384,10 @@ a:active{
         margin-right: 0;
     }
     .video{
-        margin-top: 10%;
-        margin-left: 14%;
         width: 70%;
     }
     .play-button{
-        margin: 30% 38%;
+        margin: 12% 18%;
     }
 
     .questions-list__elem{
@@ -409,7 +410,7 @@ a:active{
 
 @media screen and (min-width: 375px) and (max-width: 450px){
     .play-button{
-        margin: 33% 40%;
+        margin: 13% 20%;
     }
 }
 @media screen and (min-width: 540px) and (max-width: 800px){
@@ -432,19 +433,17 @@ a:active{
         width: 60%;
     }
     #message {
-        top: 150%;
+        top: 70%;
         left: 43%;
     }
     #small-message {
-        top: 167%;
+        top: 80%;
+    }
+    .video{
+        margin: 10%;
+        width: 85%;
     }
     #third-block {
-        margin-top: 20%;
-    }
-    .play-button {
-        margin: 7% 10%;
+        margin: 0;
     }
 }
-
-/*feat, ex, learn, pay
-*/

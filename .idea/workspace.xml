@@ -17,7 +17,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="292d993d-1f14-4382-9270-891a4c3debcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -89,6 +88,10 @@
       <workItem from="1612897848806" duration="3635000" />
       <workItem from="1613026847052" duration="4475000" />
       <workItem from="1613053219560" duration="2207000" />
+      <workItem from="1613059054711" duration="302000" />
+      <workItem from="1613067099132" duration="3000" />
+      <workItem from="1613069767333" duration="950000" />
+      <workItem from="1613151284804" duration="2127000" />
     </task>
     <task id="LOCAL-00001" summary="ref: Подготовить проект для Pages&#10;&#10;- переименовать главную страницу в index.html">
       <created>1612619658278</created>
@@ -104,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612729354273</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add .gitignore and other modifications">
+      <created>1613059204601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613059204601</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,17 +159,18 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="ref: Подготовить проект для Pages&#10;&#10;- переименовать главную страницу в index.html" />
     <MESSAGE value="ref: delete some styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="ref: delete some styles" />
+    <MESSAGE value="add .gitignore and other modifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore and other modifications" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610477604062">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1610477604062" />
-    <state x="0" y="0" width="1076" height="738" key="CommitChangelistDialog2" timestamp="1613027015721">
+    <state x="0" y="0" width="1076" height="738" key="CommitChangelistDialog2" timestamp="1613059203647">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="0" y="0" width="1076" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1613027015721" />
+    <state x="0" y="0" width="1076" height="738" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1613059203647" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1613047470583">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -172,14 +183,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="513" y="238" key="VCS.EditChangelistDialog/0.0.1366.738@0.0.1366.738" timestamp="1612619290556" />
-    <state x="275" y="89" key="Vcs.Push.Dialog.v2" timestamp="1612901078985">
+    <state x="275" y="89" key="Vcs.Push.Dialog.v2" timestamp="1613059209420">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="89" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1612901078985" />
-    <state x="92" y="92" width="499" height="554" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612899222536">
+    <state x="275" y="89" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1613059209420" />
+    <state x="92" y="92" width="499" height="554" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1613153258395">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="92" y="92" width="499" height="554" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1612899222536" />
+    <state x="92" y="92" width="499" height="554" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1613153258395" />
     <state x="204" y="0" width="805" height="619" key="dock-window-1" timestamp="1610205776804">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
